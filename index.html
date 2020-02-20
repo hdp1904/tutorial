@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html>
+<title>NBA-React Tutorial</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Inconsolata">
+<style>
+body, html {
+  height: 100%;
+  font-family: "Inconsolata", sans-serif;
+}
+
+.bgimg {
+  background-position: center;
+  background-size: cover;
+  background-image: url("imgs/cover.png");
+  min-height: 75%;
+}
+
+.menu {
+  display: none;
+}
+
+#normalCase {
+  width: 100px;
+  height: 100px;
+  position: relative;
+  animation-name: example;
+  animation-duration: 4s;
+  animation-delay: -2s;
+}
+
+@keyframes example {
+  0%   {left:0px; top:0px;}
+  25%  {left:200px; top:0px;}
+  50%  {left:200px; top:200px;}
+  75%  {left:0px; top:200px;}
+  100% {left:0px; top:0px;}
+}
+
+</style>
+<body>
+
+<div class="w3-top">
+  <div class="w3-row w3-padding w3-black">
+    <div class="w3-col s3">
+      <a href="#" class="w3-button w3-block w3-black">HOME</a>
+    </div>
+    <div class="w3-col s3">
+      <a href="#about" class="w3-button w3-block w3-black">EXPLANATION</a>
+    </div>
+    <div class="w3-col s3">
+      <a href="#menu" class="w3-button w3-block w3-black">TUTORIAL</a>
+    </div>
+    <div class="w3-col s3">
+      <a href="#where" class="w3-button w3-block w3-black">COMPLETION</a>
+    </div>
+  </div>
+</div>
+
+<header class="bgimg w3-display-container" id="home">
+  <div class="w3-display-bottomleft w3-center w3-padding-large w3-hide-small">
+  </div>
+  <div class="w3-display-middle w3-center">
+    <span id="normalCase"; style="color:red; font-size:150px">Normal<br>Case</span>
+  </div>
+</header>
+
+<div class="w3-sand w3-large">
+
+<div class="w3-container" id="about">
+  <div class="w3-content" style="max-width:700px">
+    <h5 class="w3-center w3-padding-48"><span class="w3-tag w3-wide">How To Display Ｗebsite Content Correctly？</span></h5>
+    <p>First of all, please use <span style="color:red; font-size:20px;">Chrome</span> as your browser when visiting the website in order to view information properly.</p>
+    <p>Normally, this page content of the NBA-React website should be displayed as above image.</p>
+    <div class="w3-panel w3-leftbar w3-light-grey">
+      <p style="color:red; font-size:20px;"><i><strong>But your browser might be shown as below :</strong></i></p>
+    </div>
+    <img src="imgs/1.png" style="width:100%;max-width:1000px" class="w3-margin-top">
+    <p>The reason is that something about <a href="https://developer.mozilla.org/en-US/docs/Web/HTTP/CORS" target="_blank">CORS</a> (You can ignore it).</p>
+    <p><strong>Please follow all <span style="color:red; font-size:20px;">three steps</span> listed below to figure out the problem, you only need to do this once.</strong></p>
+  </div>
+</div>
+
+<div class="w3-container" id="menu">
+  <div class="w3-content" style="max-width:700px">
+ 
+    <h5 class="w3-center w3-padding-48"><span class="w3-tag w3-wide">3 STEPS TO RECOVERY NBA-REACT WEBSITE</span></h5>
+  
+    <div class="w3-row w3-center w3-card w3-padding w3-dark-grey">
+      <div class="w3-col s12 tablink">STEP 1</div>
+    </div>
+    <div class="w3-container w3-card">
+    <h5>Get Access To NBA Statistical Data</h5>
+    <p class="w3-text-grey">●Please click the link below:</p>
+    <p class="w3-text-grey"><a href="https://34.67.117.84/players/201939" target="_blank" style="color:red; font-size:20px;">NBA Data</a></p>
+    </div>
+
+    <br>
+
+    <div class="w3-row w3-center w3-card w3-padding w3-dark-grey">
+        <div class="w3-col s12 tablink">STEP 2</div>
+    </div>
+    <div class="w3-container w3-card">
+      <h5 style="color:red; font-size:20px;">Click "Advanced"</h5>
+      <p class="w3-text-grey">Now your browser would look like as shown below:</p>
+      <p class="w3-text-grey">●Please click the "Advanced" button on the page.</p>
+      <img src="imgs/2.png" style="width:100%;max-width:1000px;margin-top:0px;">
+    </div>
+
+    <br>
+
+    <div class="w3-row w3-center w3-card w3-padding w3-dark-grey">
+        <div class="w3-col s12 tablink">STEP 3</div>
+    </div>
+    <div class="w3-container w3-card">
+      <h5 style="color:red; font-size:20px;">Click "Proceed"</h5>
+      <p class="w3-text-grey">Now your browser would look like as shown below:</p>
+      <p class="w3-text-grey">●Please click the "<span style="text-decoration:underline;">Proceed to 34.67.117.84 (unsafe)</span>>" link on the page.</p>
+      <p class="w3-text-grey">Note: This is <span style="color:red;">NOT</span> really unsafe, <a href="https://kinsta.com/blog/your-connection-is-not-private/" target="_blank">More Information</a></p>
+      <img src="imgs/3.png" style="width:100%;max-width:1000px;margin-top:0px;">
+    </div>
+
+    </div>
+
+    <br>
+
+  </div>
+</div>
+
+<div class="w3-container" id="where" style="padding-bottom:32px;">
+  <div class="w3-content" style="max-width:700px">
+    <h5 class="w3-center w3-padding-48"><span class="w3-tag w3-wide">Now Your Browser Looks Good!</span></h5>
+    <p>●When You have done above all three steps, your browser would look like as shown below:</p>
+    <img src="imgs/4.png" class="w3-image" style="width:100%">
+    <p><span class="w3-tag">No Ｗorries</span> This statistical data is from <a href="https://stats.nba.com/" target="_blank" style="color:red;">NBA.com</a></p>
+    <p><strong>●Now the NBA-React website Should Look Good !</strong></p>
+    <form action="/action_page.php" target="_blank">
+      <img src="imgs/cover.png" style="width:100%;max-width:1000px;margin-top:0px;">
+      <p><a class="w3-button w3-indigo" href="https://prod.dldoecq5q08si.amplifyapp.com/">Back To NBA-React</a></p>
+    </form>
+  </div>
+</div>
+
+</div>
+
+<!-- Footer -->
+<footer class="w3-center w3-light-grey w3-padding-48 w3-large">
+  <p>Design By <a href="mailto:mark.ycchen.7@gmail.com">Mark Chen</a></p>
+</footer>
+
+</body>
+</html>
